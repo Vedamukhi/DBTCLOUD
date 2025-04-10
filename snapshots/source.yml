@@ -1,0 +1,7 @@
+sources:
+  - name: "employee1_sources"
+    database: "DV_DBTG_SF1"
+    schema: "DBTL_DV_SCH1"
+    tables:
+      - name: "employee1"
+      - name: "employee1_profile"
