@@ -5,3 +5,5 @@ sources:
     tables:
       - name: "employee1"
       - name: "employee1_profile"
+      - name: "emp_comp_range1"
+      - name: "sales1"

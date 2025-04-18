@@ -19,3 +19,22 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: dim_emp_comp_range1
+      description: "A starter dbt model"
+      columns:
+          - name: EMP_ID
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: dim_employee1
+      description: "A starter dbt model"
+      columns:
+          - name: EMP_ID
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+          
